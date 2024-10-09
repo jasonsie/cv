@@ -1,0 +1,166 @@
+{
+  "Error": {
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+    "title": "Etwas ist schief gelaufen!"
+  },
+  "IndexPage": {
+    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+    "title": "next-intl Beispiel"
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
+  },
+  "LocaleSwitcher": {
+    "label": "更改語言",
+    "locale": "{locale, select, ch {🇹🇼 中文} en {🇺🇸 英文} other {未知}}"
+  },
+  "Manifest": {
+    "description": "",
+    "name": ""
+  },
+  "Navigation": {
+    "home": "Start",
+    "pathnames": "Pfadnamen"
+  },
+  "NotFoundPage": {
+    "description": "請檢查您的瀏覽器地址欄，或使用導航前往已知頁面。",
+    "title": "找不到頁面"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Dokumentation"
+      },
+      "source": {
+        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Quellcode"
+      }
+    }
+  },
+  "ResumePage": {
+    "name": "謝仁繽",
+    "about": "藝術背景出身，熱衷JavaScript生態系，現為一介網頁工程師，朝軟工邁進。",
+    "location": "臺中, 臺灣",
+    "locationLink": "https://www.google.com/maps/place/Taichung",
+    "initials": "",
+    "summary": "兩年多的RD經驗，我擅長從產品概念出發，設計函式庫；與此同時也累積跨國團隊的合作經驗。近幾年，隨著參與專案的大小，我特別關注函式庫的維護性與可讀性。工作時，主要使用Javascript生態系相關的技術。",
+    "avatarUrl": "",
+    "personalWebsiteUrl": "",
+    "contact": {
+      "email": "polyklietoscanon@gmail.com",
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jasonsie",
+          "icon": "GitHubIcon"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jason-sie-b56196131/",
+          "icon": "LinkedInIcon"
+        }
+      ]
+    },
+    "education": [
+      {
+        "school": {
+          "name": "National Taiwan Normal University",
+          "record": [
+            {
+              "degree": "• Master Degree of Fine Arts Department",
+              "start": "2014",
+              "end": "2018"
+            },
+            {
+              "degree": "• Bachelor's Degree in Fine Arts Department",
+              "start": "2010",
+              "end": "2014"
+            }
+          ]
+        }
+      }
+    ],
+    "work": [
+      {
+        "company": "Seidor APA",
+        "link": "https://www.linkedin.com/company/seidor/mycompany/",
+        "badges": ["RD", "Hybris"],
+        "title": "前端開發者",
+        "logo": "SeidorLogo",
+        "start": "2023",
+        "end": null,
+        "description": "前端技術\n• 運用Angular與Spartacus套件，將CMS系統mapping到前端伺服器並客製化\n• 透過Redux，幫助團隊優化資料流儲存方式\n• 引介工具，如Ngrok, Androind Studio...等,建立多樣裝置的測試方式\n• 調整NPM指令，符應特定專案的需求\n• CSR, SSR的調整經驗，從server至client端的生命週期\n\n支援\n• Hotfix 結帳流程的第三方模組載入異常\n• 重構code base，幫助團隊其他成員共用components\n\n其它\n•  UI UX以及版面設計技能。使用Figma產出簡易wireframe、制定UI rules\n• 熟悉大型電商平台、SAP與Hybris的業務邏輯\n• 專案管理工具，Jira，Confluence\n• 使用Node.js與Java的經驗，後端的基本理解"
+      },
+      {
+        "company": "韋爻研策",
+        "badges": ["RD", "Office"],
+        "title": "前端開發者",
+        "logo": "",
+        "start": "2022",
+        "end": "2023",
+        "description": "前端技術\n• 透過Next.js，初始化專案基本雛型\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n• 打造資料流，從API fetching的請求風格、幫助團隊對不同資料屬性實行不同的儲存方式，區別出props, context, redux，甚至local storage的不同層級。\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n\n其它\n• 熟稔後台系統之所需\n• Git，版本控管，指向production或development環境"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React/Next.js",
+      "Angular",
+      "Rxjs",
+      "SAP Commerce",
+      "Spartacus",
+      "Node.js"
+    ],
+    "projects": [
+      {
+        "title": "Falconpack",
+        "position": "前端開發",
+        "business": ["電子商務"],
+        "techStack": [
+          "TypeScript",
+          "Angular",
+          "Spartacus",
+          "SSR",
+          "GTM",
+          "Google Map"
+        ],
+        "description": "Falcon Pack Online 位於阿聯酋，致力於提供廣泛的包裝解決方案。Falcon Pack 是一家領先的一次性食品包裝產品製造商和分銷商。",
+        "logo": "FalconLogo",
+        "image": "/images/falconImg.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://falconpackonline.com/en/"
+        }
+      },
+      {
+        "title": "內外之相 | 曾培堯 Tseng Pei-Yao 活動網站",
+        "position": "Full Stack Developer",
+        "business": ["Event"],
+        "techStack": ["TypeScript", "React", "Next.js", "MongoDB", "Animation"],
+        "description": "This is a website for the exhibition, 'The Inner, Outer Self and In-between: Tseng Pei-yao';",
+        "logo": "TsengLogo",
+        "image": "/images/tseng.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://tseng-pei-yao.vercel.app/"
+        }
+      },
+      {
+        "title": "春源畫室 x 南美館 活動網站",
+        "position": "Full Stack Developer",
+        "business": ["Event"],
+        "techStack": ["TypeScript", "React", "Next.js", "Map"],
+        "description": "This is a website for the exhibition, 'Crescendo: Three Generations of Tshun-Guân Art Studio'",
+        "logo": "TsengLogo",
+        "image": "/images/templeMap.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://tseng-pei-yao.vercel.app/"
+        }
+      }
+    ]
+  }
+}

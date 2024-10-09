@@ -10,9 +10,8 @@ export const RESUME_DATA = {
     "Front End developer, dedicated to user-friendly UI UX, scalable web applications and also javascript ecosystem",
   summary:
     "I specialize in taking products from concept to implant and is also well-experience to cooperate with the international team. I excel in building scalable and maintainable code-base. For the current time, I am dedicated to the 'Javascript Ecosystem' with React, Next.js,Redux, Angular, Rxjs and a taste of Node.js for the most of the time.",
-  //https://avatars.githubusercontent.com/u/76652118?s=400&u=216632a6604b1e3b96ef9d575b0f1f5dbd2eb9f9&v=4
   avatarUrl: "",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "",
   contact: {
     email: "polyklietoscanon@gmail.com",
     social: [
@@ -104,3 +103,7 @@ export const RESUME_DATA = {
     },
   ],
 } as const;
+
+
+
+

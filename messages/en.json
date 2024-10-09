@@ -1,0 +1,166 @@
+{
+  "Error": {
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+    "title": "Etwas ist schief gelaufen!"
+  },
+  "IndexPage": {
+    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+    "title": "next-intl Beispiel"
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, ch {🇹🇼 ch} en {🇺🇸 en} other {Unknown}}"
+  },
+  "Manifest": {
+    "description": "",
+    "name": ""
+  },
+  "Navigation": {
+    "home": "Start",
+    "pathnames": "Pfadnamen"
+  },
+  "NotFoundPage": {
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+    "title": "Seite nicht gefunden"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Dokumentation"
+      },
+      "source": {
+        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Quellcode"
+      }
+    }
+  },
+  "ResumePage": {
+    "name": "Sie Ren-Bin",
+    "about": "Front End developer, dedicated to user-friendly UI UX, scalable web applications and also javascript ecosystem",
+    "location": "Taichung, Taiwan",
+    "locationLink": "https://www.google.com/maps/place/Taichung",
+    "initials": "",
+    "summary": "I specialize in taking products from concept to implant and is also well-experience to cooperate with the international team. I excel in building scalable and maintainable code-base. For the current time, I am dedicated to the 'Javascript Ecosystem' with React, Next.js,Redux, Angular, Rxjs and a taste of Node.js for the most of the time.",
+    "avatarUrl": "",
+    "personalWebsiteUrl": "",
+    "contact": {
+      "email": "polyklietoscanon@gmail.com",
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jasonsie",
+          "icon": "GitHubIcon"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jason-sie-b56196131/",
+          "icon": "LinkedInIcon"
+        }
+      ]
+    },
+    "education": [
+      {
+        "school": {
+          "name": "National Taiwan Normal University",
+          "record": [
+            {
+              "degree": "• Master Degree of Fine Arts Department",
+              "start": "2014",
+              "end": "2018"
+            },
+            {
+              "degree": "• Bachelor's Degree in Fine Arts Department",
+              "start": "2010",
+              "end": "2014"
+            }
+          ]
+        }
+      }
+    ],
+    "work": [
+      {
+        "company": "Seidor APA",
+        "link": "https://www.linkedin.com/company/seidor/mycompany/",
+        "badges": ["RD", "Hybris"],
+        "title": "Front End Developer",
+        "logo": "SeidorLogo",
+        "start": "2023",
+        "end": "2024",
+        "description": "Essential\n• Customize Angular and Spartacus model to map CMS component data on the client side\n• Refactor the sharable logic of Redux data storage for team's usage\n• Introduce tools, Ngrok, Androind Studio..., to set up the way of testing on versatile devices for teams\n• Customize NPM module to assist teams with the speed of development\n• Upgrade important version, help the project to migrate from CSR to SSR\n\nSupport\n• Hot fix on payment issue by redesigning the moment of loading session\n• Refactor the legacy code for better readability and maintenance\n\nOthers\n• Design UI/UX layout via Figma and generate the basic well-ruled wireframe\n• Basic concept about back-end and database in both Node.js and Java\n• Familiar with business logic of eCommerce, SAP Commerce and Hybris\n• Project management tools, Jira, Confluence..."
+      },
+      {
+        "company": "韋爻研策",
+        "badges": ["RD", "Office"],
+        "title": "Front End Developer",
+        "logo": "",
+        "start": "2022",
+        "end": "2023",
+        "description": "Essential\n• Based on the next.js, build up the basic structure of the project\n• Set up principles, folder struture, rules for css style, and introducing the formatter.\n• Set up Data flow, the style for API fetching, storing for local or global data via the differnet way, props, context, redux or even local storage.\n\nOthers\n• Familiar with essential requirement of backstage\n• Git, using version control to point to development or production"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React/Next.js",
+      "Angular",
+      "Rxjs",
+      "SAP Commerce",
+      "Spartacus",
+      "Node.js"
+    ],
+    "projects": [
+      {
+        "title": "Falconpack",
+        "position": "Front End Developer",
+        "business": ["E-Commerce"],
+        "techStack": [
+          "TypeScript",
+          "Angular",
+          "Spartacus",
+          "SSR",
+          "GTM",
+          "Google Map"
+        ],
+        "description": "Based on UAE, The Falcon Pack Online is dedicated to providing a wide range of packaging solutions. Falcon Pack is a leading manufacturer and distributor of disposable food packaging products.",
+        "logo": "FalconLogo",
+        "image": "/images/falconImg.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://falconpackonline.com/en/"
+        }
+      },
+      {
+        "title": "內外之相 | 曾培堯 Tseng Pei-Yao Website",
+        "position": "Full Stack Developer",
+        "business": ["Event"],
+        "techStack": ["TypeScript", "React", "Next.js", "MongoDB", "Animation"],
+        "description": "This is a website for the exhibition, 'The Inner, Outer Self and In-between: Tseng Pei-yao';",
+        "logo": "TsengLogo",
+        "image": "/images/tseng.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://tseng-pei-yao.vercel.app/"
+        }
+      },
+      {
+        "title": "春源畫室 x 南美館 Website",
+        "position": "Full Stack Developer",
+        "business": ["Event"],
+        "techStack": ["TypeScript", "React", "Next.js", "Map"],
+        "description": "This is a website for the exhibition, 'Crescendo: Three Generations of Tshun-Guân Art Studio'",
+        "logo": "TsengLogo",
+        "image": "/images/templeMap.webp",
+        "link": {
+          "label": "github.com",
+          "href": "https://tseng-pei-yao.vercel.app/"
+        }
+      }
+    ]
+  }
+}
