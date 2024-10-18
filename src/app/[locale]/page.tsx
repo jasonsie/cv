@@ -27,7 +27,8 @@ export default function ResumePage({ params: { locale } }: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
   const messages: any = useMessages();
-  const t = useTranslations("ResumePage");
+  const resumePageT = useTranslations("ResumePage");
+  const resumePageLayoutT = useTranslations("PageLayout");
   const contactSocial = messages.ResumePage?.contact?.social ?? [];
   const _icon = {
     LinkedInIcon: LinkedInIcon,
@@ -48,29 +49,29 @@ export default function ResumePage({ params: { locale } }: Props) {
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{t("name")}</h1>
+            <h1 className="text-2xl font-bold">{resumePageT("name")}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
-              {t("about")}
+              {resumePageT("about")}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                href={t("locationLink")}
+                href={resumePageT("locationLink")}
                 target="_blank"
               >
                 <GlobeIcon className="size-3" />
-                {t("location")}
+                {resumePageT("location")}
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
-              {t("contact.email") ? (
+              {resumePageT("contact.email") ? (
                 <Button
                   className="size-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${t("contact.email")}`}>
+                  <a href={`mailto:${resumePageT("contact.email")}`}>
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
@@ -93,27 +94,36 @@ export default function ResumePage({ params: { locale } }: Props) {
               })}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
-              {t("contact.email") ? (
-                <a href={`mailto:${t("contact.email")}`}>
-                  <span className="underline">{t("contact.email")}</span>
+              {resumePageT("contact.email") ? (
+                <a href={`mailto:${resumePageT("contact.email")}`}>
+                  <span className="underline">
+                    {resumePageT("contact.email")}
+                  </span>
                 </a>
               ) : null}
             </div>
           </div>
 
           <Avatar className="size-28">
-            <AvatarImage alt={t("name")} src={t("avatarUrl")} />
-            <AvatarFallback>{t("initials")}</AvatarFallback>
+            <AvatarImage
+              alt={resumePageT("name")}
+              src={resumePageT("avatarUrl")}
+            />
+            <AvatarFallback>{resumePageT("initials")}</AvatarFallback>
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">
+            {resumePageLayoutT("title.about")}
+          </h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
-            {t("summary")}
+            {resumePageT("summary")}
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
+          <h2 className="text-xl font-bold">
+            {resumePageLayoutT("title.workExperience")}
+          </h2>
           {works.map((work: any, i: number) => {
             const logo = _logo[work.logo as keyof typeof _logo];
             const badgesls = work.badges;
@@ -167,7 +177,9 @@ export default function ResumePage({ params: { locale } }: Props) {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Education</h2>
+          <h2 className="text-xl font-bold">
+            {resumePageLayoutT("title.education")}
+          </h2>
           {education.map((education: any) => {
             return (
               <Card key={education?.school?.name}>
@@ -195,7 +207,9 @@ export default function ResumePage({ params: { locale } }: Props) {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
+          <h2 className="text-xl font-bold">
+            {resumePageLayoutT("title.skills")}
+          </h2>
           <div className="flex flex-wrap gap-1">
             {skills.map((skill: string) => (
               <Badge className="print:text-[10px]" key={skill}>
@@ -205,7 +219,9 @@ export default function ResumePage({ params: { locale } }: Props) {
           </div>
         </Section>
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">
+            {resumePageLayoutT("title.projects")}
+          </h2>
           <div className="-mx-3">
             {projects.map((project: any) => {
               const logo = _logo[project.logo as keyof typeof _logo];

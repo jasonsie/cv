@@ -38,15 +38,22 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
         "title": "Quellcode"
       }
+    },
+    "title": {
+      "about": "關於",
+      "workExperience": "工作經歷",
+      "education": "教育程度",
+      "skills": "技能",
+      "projects": "專案"
     }
   },
   "ResumePage": {
     "name": "謝仁繽",
-    "about": "藝術背景出身，熱衷JavaScript生態系，現為一介網頁工程師，朝軟工邁進。",
+    "about": "藝術出身，熱衷JavaScript生態系，現為一介網頁開發者，朝向軟體工程師。",
     "location": "臺中, 臺灣",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "兩年多的RD經驗，我擅長從產品概念出發，設計函式庫；與此同時也累積跨國團隊的合作經驗。近幾年，隨著參與專案的大小，我特別關注函式庫的維護性與可讀性。工作時，主要使用Javascript生態系相關的技術。",
+    "summary": "我擅長從產品概念出發，設計函式庫。\n2013年，曾加入西班牙為主的開發團隊，累積跨國的合作經驗；同時隨著參與專案的大小，開始關注函式庫的維護性與可讀性。工作時，主要使用Javascript生態系相關技術，求知、設計、解決問題之所需。",
     "avatarUrl": "",
     "personalWebsiteUrl": "",
     "contact": {
@@ -67,15 +74,15 @@
     "education": [
       {
         "school": {
-          "name": "National Taiwan Normal University",
+          "name": "國立臺灣師範大學",
           "record": [
             {
-              "degree": "• Master Degree of Fine Arts Department",
+              "degree": "• 美術系藝術理論組 碩士",
               "start": "2014",
               "end": "2018"
             },
             {
-              "degree": "• Bachelor's Degree in Fine Arts Department",
+              "degree": "• 美術系 學士",
               "start": "2010",
               "end": "2014"
             }
@@ -88,20 +95,20 @@
         "company": "Seidor APA",
         "link": "https://www.linkedin.com/company/seidor/mycompany/",
         "badges": ["RD", "Hybris"],
-        "title": "前端開發者",
+        "title": "前端工程師",
         "logo": "SeidorLogo",
         "start": "2023",
         "end": null,
-        "description": "前端技術\n• 運用Angular與Spartacus套件，將CMS系統mapping到前端伺服器並客製化\n• 透過Redux，幫助團隊優化資料流儲存方式\n• 引介工具，如Ngrok, Androind Studio...等,建立多樣裝置的測試方式\n• 調整NPM指令，符應特定專案的需求\n• CSR, SSR的調整經驗，從server至client端的生命週期\n\n支援\n• Hotfix 結帳流程的第三方模組載入異常\n• 重構code base，幫助團隊其他成員共用components\n\n其它\n•  UI UX以及版面設計技能。使用Figma產出簡易wireframe、制定UI rules\n• 熟悉大型電商平台、SAP與Hybris的業務邏輯\n• 專案管理工具，Jira，Confluence\n• 使用Node.js與Java的經驗，後端的基本理解"
+        "description": "技術\n• 運用Angular與Spartacus套件，將CMS系統mapping到前端伺服器並客製化\n• 透過Redux，幫助團隊優化資料流儲存方式\n• 引介工具，如Ngrok, Androind Studio...等,建立多樣裝置的測試方式\n• 調整NPM指令，符應特定專案的需求\n• CSR, SSR的調整經驗，從server至client端的生命週期\n\n支援\n• Hotfix 結帳流程的第三方模組載入異常\n• 重構code base，幫助團隊其他成員共用components\n\n其它\n•  UI UX以及版面設計技能。使用Figma產出簡易wireframe、制定UI rules\n• 熟悉大型電商平台、SAP與Hybris的業務邏輯\n• 專案管理工具，Jira，Confluence\n• 使用Node.js與Java的經驗，後端的基本理解"
       },
       {
         "company": "韋爻研策",
         "badges": ["RD", "Office"],
-        "title": "前端開發者",
+        "title": "前端工程師",
         "logo": "",
         "start": "2022",
         "end": "2023",
-        "description": "前端技術\n• 透過Next.js，初始化專案基本雛型\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n• 打造資料流，從API fetching的請求風格、幫助團隊對不同資料屬性實行不同的儲存方式，區別出props, context, redux，甚至local storage的不同層級。\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n\n其它\n• 熟稔後台系統之所需\n• Git，版本控管，指向production或development環境"
+        "description": "技術\n• 透過Next.js，初始化專案基本雛型\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n• 打造資料流，從API fetching的請求風格、幫助團隊對不同資料屬性實行不同的儲存方式。\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n\n其它\n• 熟稔後台系統之所需\n• Git，版本控管，指向production或development環境"
       }
     ],
     "skills": [

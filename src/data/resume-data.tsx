@@ -2,7 +2,7 @@ import { FalconLogo, SeidorLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Sie Ren-Bin (Jason)",
+  name: "Sie Ren-Bin",
   initials: "Jason",
   location: "Taichung, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taichung",

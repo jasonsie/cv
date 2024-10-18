@@ -38,6 +38,13 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
         "title": "Quellcode"
       }
+    },
+    "title": {
+      "about": "About",
+      "workExperience": "Work Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects"
     }
   },
   "ResumePage": {
