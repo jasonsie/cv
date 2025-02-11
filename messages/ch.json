@@ -54,7 +54,7 @@
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
     "summary": "我擅長從產品概念出發，設計函式庫。\n2013年，曾加入西班牙為主的開發團隊，累積跨國的合作經驗；同時隨著參與專案的大小，開始關注函式庫的維護性與可讀性。工作時，主要使用Javascript生態系相關技術，求知、設計、解決問題之所需。",
-    "avatarUrl": "",
+    "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
     "contact": {
       "email": "polyklietoscanon@gmail.com",
@@ -98,7 +98,7 @@
         "title": "前端工程師",
         "logo": "SeidorLogo",
         "start": "2023",
-        "end": null,
+        "end": "2024",
         "description": "技術\n• 運用Angular與Spartacus套件，將CMS系統mapping到前端伺服器並客製化\n• 透過Redux，幫助團隊優化資料流儲存方式\n• 引介工具，如Ngrok, Androind Studio...等,建立多樣裝置的測試方式\n• 調整NPM指令，符應特定專案的需求\n• CSR, SSR的調整經驗，從server至client端的生命週期\n\n支援\n• Hotfix 結帳流程的第三方模組載入異常\n• 重構code base，幫助團隊其他成員共用components\n\n其它\n•  UI UX以及版面設計技能。使用Figma產出簡易wireframe、制定UI rules\n• 熟悉大型電商平台、SAP與Hybris的業務邏輯\n• 專案管理工具，Jira，Confluence\n• 使用Node.js與Java的經驗，後端的基本理解"
       },
       {
