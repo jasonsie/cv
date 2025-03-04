@@ -12,7 +12,7 @@
   },
   "LocaleSwitcher": {
     "label": "更改語言",
-    "locale": "{locale, select, ch {🇹🇼 中文} en {🇺🇸 英文} other {未知}}"
+    "locale": "{locale, select, tw {🇹🇼 中文} en {🇺🇸 英文} other {未知}}"
   },
   "Manifest": {
     "description": "",
