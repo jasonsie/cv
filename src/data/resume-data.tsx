@@ -1,4 +1,4 @@
-import { FalconLogo, SeidorLogo } from "@/images/logos";
+import { CathayLogo, FalconLogo, SeidorLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -37,13 +37,38 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Cathay",
+      link: "https://www.cathaybk.com.tw/overseas",
+      badges: ["Onsite"],
+      title: "Front End Developer",
+      logo: CathayLogo,
+      start: "2025",
+      end: null,
+      description: `Essential
+                      • Customize Angular and Spartacus model to map CMS component data on the client side
+                      • Refactor the sharable logic of Redux data storage for team's usage
+                      • Introduce tools, Ngrok, Androind Studio..., to test on versatile devices
+                      • Customize NPM module to assist teams with the speed of development
+                      • Upgrade version for important features: CSR to SSR
+
+                    Support
+                    • Hot fix on payment issue by redesigning the moment of loading session
+                    • Refactor the legacy code for better readability and maintenance
+
+                    Others
+                    • Design UI/UX layout via Figma and generate the basic well-ruled wireframe
+                    • Basic concept about back-end and database in both Node.js and Java
+                    • Familiar with business logic of eCommerce, SAP Commerce and Hybris
+                    • Project management tools, Jira, Confluence...`,
+    },
+    {
       company: "Seidor APA",
       link: "https://www.linkedin.com/company/seidor/mycompany/",
       badges: ["Hybris"],
       title: "Front End Developer",
       logo: SeidorLogo,
       start: "2023",
-      end: null,
+      end: "2024",
       description: `Essential
                       • Customize Angular and Spartacus model to map CMS component data on the client side
                       • Refactor the sharable logic of Redux data storage for team's usage
@@ -103,7 +128,3 @@ export const RESUME_DATA = {
     },
   ],
 } as const;
-
-
-
-

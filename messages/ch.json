@@ -92,9 +92,19 @@
     ],
     "work": [
       {
+        "company": "國泰世華銀行",
+        "link": "https://www.cathaybk.com.tw/overseas",
+        "badges": ["Onsite", "Outsource"],
+        "title": "前端工程師",
+        "logo": "CathayLogo",
+        "start": "2025",
+        "end": null,
+        "description": "描述\n• 運用Angular 18，幫助團隊開發「上稿後台」；主要功能為API調用、權限與登入流程\n\n技術\n • 元件模組化 、config檔設計；提升新頁面開發效率，舊頁面的維護\n• 登入登出流程；理解業務需求，滿足資安需求\n• 調用API的設計；幫助團隊成員上手維護與後續除錯\n• 資料流；抽象化函式庫，提升程式碼的閱讀性\n\n其它\n• 在封閉環境（沒有連網的狀況之下），設定開發環境"
+      },
+      {
         "company": "Seidor APA",
         "link": "https://www.linkedin.com/company/seidor/mycompany/",
-        "badges": ["RD", "Hybris"],
+        "badges": ["Hybris"],
         "title": "前端工程師",
         "logo": "SeidorLogo",
         "start": "2023",
@@ -103,7 +113,7 @@
       },
       {
         "company": "韋爻研策",
-        "badges": ["RD", "Office"],
+        "badges": ["Onsite"],
         "title": "前端工程師",
         "logo": "",
         "start": "2022",

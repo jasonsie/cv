@@ -92,9 +92,19 @@
     ],
     "work": [
       {
+        "company": "Cathay United Bank",
+        "link": "https://www.cathaybk.com.tw/overseas",
+        "badges": ["Onsite", "Outsource"],
+        "title": "Front End Developer",
+        "logo": "CathayLogo",
+        "start": "2025",
+        "end": null,
+        "description": "Description\n• Utilized Angular 18 to assist the team in developing the \"Content Management Backend\"; the main features include API calls, authentication, and login processes\n\nEssential\n• Component modularization and config file design; improved the efficiency of new page development and maintenance of old pages\n• Login and logout processes; understood business requirements and met security needs\n• API call design; helped team members get up to speed with maintenance and subsequent debugging\n• Data flow; abstracted libraries of functions to enhance code readability\n\nOthers\n• Set up the development environment in a closed environment (without internet access)"
+      },
+      {
         "company": "Seidor APA",
         "link": "https://www.linkedin.com/company/seidor/mycompany/",
-        "badges": ["RD", "Hybris"],
+        "badges": ["Hybris"],
         "title": "Front End Developer",
         "logo": "SeidorLogo",
         "start": "2023",
@@ -103,7 +113,7 @@
       },
       {
         "company": "韋爻研策",
-        "badges": ["RD", "Office"],
+        "badges": ["Onsite"],
         "title": "Front End Developer",
         "logo": "",
         "start": "2022",
