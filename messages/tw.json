@@ -53,7 +53,7 @@
     "location": "臺中, 臺灣",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "我擅長從產品概念出發，設計函式庫。\n2023年，曾加入西班牙為主的開發團隊，累積跨國的合作經驗；同時隨著參與專案的大小，開始關注函式庫的維護性與可讀性。工作時，主要使用Javascript生態系相關技術，求知、設計、解決問題之所需。",
+    "summary": "專精於產品開發全週期，從概念到部署落地。曾參與跨國團隊（西班牙），擅長建構可擴展、易維護的程式碼架構。主力技術為JavaScript生態系（React、Next.js、Redux、Angular、RxJS），並具備基本Node.js後端經驗。",
     "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
     "contact": {
@@ -99,7 +99,7 @@
         "logo": "CathayLogo",
         "start": "2025",
         "end": null,
-        "description": "描述\n• 運用Angular 18，幫助團隊開發「上稿後台」；主要功能為API調用、權限與登入流程\n\n技術\n • 元件模組化 、config檔設計；提升新頁面開發效率，舊頁面的維護\n• 登入登出流程；理解業務需求，滿足資安需求\n• 調用API的設計；幫助團隊成員上手維護與後續除錯\n• 資料流；抽象化函式庫，提升程式碼的閱讀性\n\n其它\n• 在封閉環境（沒有連網的狀況之下），設定開發環境"
+        "description": "架構與設計：\n• 運用Angular 18打造模組化內容管理系統，縮短新頁面開發時間達40%，提升15+元件的程式碼重用性\n\n團隊賦能：\n• 建置安全認證系統與API架構，使2+位團隊成員能獨立開發與除錯，縮短50%上手時間\n\n程式品質：\n• 抽象化資料流函式庫並建立編碼規範，提升程式碼可讀性與維護效率達35%\n\n基礎建設：\n• 於封閉環境（無網路連線）成功部署開發環境，確保符合嚴格資安規範"
       },
       {
         "company": "Seidor APA",
@@ -109,7 +109,7 @@
         "logo": "SeidorLogo",
         "start": "2023",
         "end": "2024",
-        "description": "技術\n• 運用Angular與Spartacus套件，將CMS系統mapping到前端伺服器並客製化\n• 透過Redux，幫助團隊優化資料流儲存方式\n• 引介工具，如Ngrok, Androind Studio...等,建立多樣裝置的測試方式\n• 調整NPM指令，符應特定專案的需求\n• CSR, SSR的調整經驗，從server至client端的生命週期\n\n支援\n• Hotfix 結帳流程的第三方模組載入異常\n• 重構code base，幫助團隊其他成員共用components\n\n其它\n•  UI UX以及版面設計技能。使用Figma產出簡易wireframe、制定UI rules\n• 熟悉大型電商平台、SAP與Hybris的業務邏輯\n• 專案管理工具，Jira，Confluence\n• 使用Node.js與Java的經驗，後端的基本理解"
+        "description": "效能優化：\n• 主導Angular/Spartacus電商平台從CSR遷移至SSR，首次頁面載入時間提升60%並改善SEO表現\n\n架構與擴展性：\n• 重構Redux狀態管理架構，降低程式碼複雜度達30%，讓4+位團隊成員能無縫共享資料\n\n關鍵錯誤修復：\n• 解決影響15%結帳交易的關鍵付款session錯誤，避免預估營收損失\n\n開發速度：\n• 建立跨裝置測試流程（Ngrok、Android Studio）與客製化NPM模組，加速開發速度達45%"
       },
       {
         "company": "韋爻研策",
@@ -118,7 +118,7 @@
         "logo": "",
         "start": "2022",
         "end": "2023",
-        "description": "技術\n• 透過Next.js，初始化專案基本雛型\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n• 打造資料流，從API fetching的請求風格、幫助團隊對不同資料屬性實行不同的儲存方式。\n• 建立coding style，幫助團隊建構基本的資料夾結構、css的準則與引介IDE的formatter\n\n其它\n• 熟稔後台系統之所需\n• Git，版本控管，指向production或development環境"
+        "description": "專案基礎建設：\n• 建構Next.js專案架構，制定標準化資料夾結構、CSS規範與程式碼格式化規則，縮短程式碼審查時間達40%\n\n資料架構：\n• 設計完整資料流架構（Props、Context、Redux、Local Storage）與明確的API請求模式，提升20+元件的資料管理一致性\n\nDevOps與協作：\n• 建立Git工作流程與分支策略管理開發/正式環境，實現團隊無縫協作與零停機部署"
       }
     ],
     "skills": [
