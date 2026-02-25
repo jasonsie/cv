@@ -19,7 +19,7 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.summary,
 };
 
@@ -46,15 +46,15 @@ export default function ResumePage({ params: { locale } }: Props) {
   const projects = messages.ResumePage?.projects ?? [];
 
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
+    <main className="container relative p-4 mx-auto overflow-auto scroll-my-12 print:p-12 md:p-16">
+      <section className="w-full max-w-2xl mx-auto space-y-8 bg-white print:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{resumePageT("name")}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
               {resumePageT("about")}
             </p>
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+            <p className="items-center max-w-md font-mono text-xs text-pretty text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={resumePageT("locationLink")}
@@ -64,7 +64,7 @@ export default function ResumePage({ params: { locale } }: Props) {
                 {resumePageT("location")}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex pt-1 font-mono text-sm gap-x-1 text-muted-foreground print:hidden">
               {resumePageT("contact.email") ? (
                 <Button
                   className="size-8"
@@ -132,8 +132,8 @@ export default function ResumePage({ params: { locale } }: Props) {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                  <div className="flex items-center justify-between text-base gap-x-2">
+                    <h3 className="inline-flex items-center justify-center font-semibold leading-none gap-x-1">
                       {logo && (
                         <Image
                           src={logo}
@@ -161,7 +161,7 @@ export default function ResumePage({ params: { locale } }: Props) {
                         })}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm text-gray-500 tabular-nums">
                       {work.start} - {work.end ?? "Present"}
                     </div>
                   </div>
@@ -185,7 +185,7 @@ export default function ResumePage({ params: { locale } }: Props) {
             return (
               <Card key={education?.school?.name}>
                 <CardHeader>
-                  <div className="mb-2 flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between mb-2 text-base gap-x-2">
                     <h3 className="font-semibold leading-none">
                       {education?.school?.name}
                     </h3>
@@ -194,9 +194,9 @@ export default function ResumePage({ params: { locale } }: Props) {
                 {education?.school?.record?.map((record: any) => {
                   return (
                     <CardContent key={record.degree}>
-                      <div className="flex items-center justify-between gap-x-2 text-xs">
+                      <div className="flex items-center justify-between text-xs gap-x-2">
                         {record.degree}
-                        <div className="text-sm tabular-nums text-gray-500">
+                        <div className="text-sm text-gray-500 tabular-nums">
                           {record.start} - {record.end}
                         </div>
                       </div>
@@ -219,7 +219,7 @@ export default function ResumePage({ params: { locale } }: Props) {
             ))}
           </div>
         </Section>
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">
             {resumePageLayoutT("title.projects")}
           </h2>

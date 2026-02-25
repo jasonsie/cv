@@ -75,6 +75,13 @@
   }
 }
 
-.print-force-new-page {
-  page-break-before: always;
+@page {
+  margin: 0;
+  padding: 2.5rem;
+}
+
+@media print {
+  h2 {
+    break-after: avoid;
+  }
 }
