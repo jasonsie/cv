@@ -162,7 +162,7 @@ export default function ResumePage({ params: { locale } }: Props) {
                       </span>
                     </h3>
                     <div className="text-sm text-gray-500 tabular-nums">
-                      {work.start} - {work.end ?? "Present"}
+                      {work.start} - {work.end ?? resumePageT("present")}
                     </div>
                   </div>
 
