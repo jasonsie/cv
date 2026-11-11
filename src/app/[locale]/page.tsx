@@ -218,11 +218,23 @@ export default function ResumePage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold">
             {resumePageLayoutT("title.skills")}
           </h2>
-          <div className="flex flex-wrap gap-1">
-            {skills.map((skill: string) => (
-              <Badge className="print:text-[10px]" key={skill}>
-                {skill}
-              </Badge>
+          <div className="flex flex-col gap-2 print:gap-1">
+            {skills.map((group: { group: string; items: string[] }) => (
+              <div
+                key={group.group}
+                className="flex flex-col gap-1 print:flex-row print:items-baseline print:gap-3 sm:flex-row sm:items-baseline sm:gap-3"
+              >
+                <h3 className="shrink-0 font-mono text-xs font-semibold text-muted-foreground print:!w-28 print:text-[10px] sm:w-40">
+                  {group.group}
+                </h3>
+                <div className="flex flex-wrap gap-1">
+                  {group.items.map((skill) => (
+                    <Badge className="print:text-[10px]" key={skill}>
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </Section>

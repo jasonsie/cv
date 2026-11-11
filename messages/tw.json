@@ -122,14 +122,46 @@
       }
     ],
     "skills": [
-      "JavaScript",
-      "TypeScript",
-      "React/Next.js",
-      "Angular",
-      "Rxjs",
-      "SAP Commerce",
-      "Spartacus",
-      "Node.js"
+      {
+        "group": "AI Agent 與工具",
+        "items": [
+          "Claude Code",
+          "Skills 與 Subagents",
+          "多 Agent 流程",
+          "Prompt 與 Context 工程",
+          "Codex CLI",
+          "Antigravity"
+        ]
+      },
+      {
+        "group": "LLM API 與模型",
+        "items": ["OpenAI API", "Gemini API", "Ollama（地端模型）"]
+      },
+      {
+        "group": "檢索與工具",
+        "items": ["附引用來源的檢索", "MCP", "Agent 可呼叫的 CLI", "防護 Hooks"]
+      },
+      {
+        "group": "前端",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "React/Next.js",
+          "Angular",
+          "RxJS",
+          "Redux",
+          "SSR",
+          "SAP Commerce/Spartacus"
+        ]
+      },
+      {
+        "group": "後端",
+        "items": ["Node.js", "Python", "Bash"]
+      },
+      {
+        "group": "工程實務",
+        "items": ["Git worktree 與 PR 流程", "CI", "測試", "ADR 與規格驅動開發"]
+      }
     ],
     "projects": [
       {

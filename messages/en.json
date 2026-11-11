@@ -122,14 +122,56 @@
       }
     ],
     "skills": [
-      "JavaScript",
-      "TypeScript",
-      "React/Next.js",
-      "Angular",
-      "Rxjs",
-      "SAP Commerce",
-      "Spartacus",
-      "Node.js"
+      {
+        "group": "AI Agents & Tooling",
+        "items": [
+          "Claude Code",
+          "Skills & subagents",
+          "Multi-agent pipelines",
+          "Prompt & context engineering",
+          "Codex CLI",
+          "Antigravity"
+        ]
+      },
+      {
+        "group": "LLM APIs & Models",
+        "items": ["OpenAI API", "Gemini API", "Ollama (local models)"]
+      },
+      {
+        "group": "Retrieval & Tools",
+        "items": [
+          "Cited retrieval",
+          "MCP",
+          "Agent-callable CLIs",
+          "Guardrail hooks"
+        ]
+      },
+      {
+        "group": "Front End",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "React/Next.js",
+          "Angular",
+          "RxJS",
+          "Redux",
+          "SSR",
+          "SAP Commerce/Spartacus"
+        ]
+      },
+      {
+        "group": "Back End",
+        "items": ["Node.js", "Python", "Bash"]
+      },
+      {
+        "group": "Practice",
+        "items": [
+          "Git worktrees & PR flow",
+          "CI",
+          "Testing",
+          "ADRs & spec-driven development"
+        ]
+      }
     ],
     "projects": [
       {
