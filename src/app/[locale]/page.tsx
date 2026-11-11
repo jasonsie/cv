@@ -12,7 +12,13 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import Image from "next/image";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-import { FalconLogo, SeidorLogo, TsengLogo,CathayLogo } from "@/images/logos";
+import {
+  FalconLogo,
+  SeidorLogo,
+  TsengLogo,
+  CathayLogo,
+  WiproLogo,
+} from "@/images/logos";
 
 type Props = {
   params: { locale: string };
@@ -39,6 +45,7 @@ export default function ResumePage({ params: { locale } }: Props) {
     FalconLogo: FalconLogo,
     TsengLogo: TsengLogo,
     CathayLogo: CathayLogo,
+    WiproLogo: WiproLogo,
   };
   const works = messages.ResumePage?.work ?? [];
   const skills = messages.ResumePage?.skills ?? [];

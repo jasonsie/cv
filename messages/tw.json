@@ -93,14 +93,23 @@
     ],
     "work": [
       {
-        "company": "國泰世華銀行",
-        "link": "https://www.cathaybk.com.tw/overseas",
-        "badges": ["Onsite", "Contract"],
-        "title": "前端工程師",
-        "logo": "CathayLogo",
-        "start": "2025",
+        "company": "Wipro",
+        "link": "https://www.wipro.com",
+        "badges": ["Client: Google", "Vendor"],
+        "title": "軟體工程師 · 開發者工具",
+        "logo": "WiproLogo",
+        "start": "2026/06",
         "end": null,
-        "description": "架構與設計：\n• 運用Angular 18打造模組化內容管理系統，縮短新頁面開發時間達40%，提升15+元件的程式碼重用性\n\n團隊賦能：\n• 建置安全認證系統與API架構，使2+位團隊成員能獨立開發與除錯，縮短50%上手時間\n\n程式品質：\n• 抽象化資料流函式庫並建立編碼規範，提升程式碼可讀性與維護效率達35%\n\n基礎建設：\n• 於封閉環境（無網路連線）成功部署開發環境，確保符合嚴格資安規範"
+        "description": "裝置開發工具：\n• 為內部 Web Console 開發 Angular 前端功能與後端 API；該工具透過瀏覽器（Web Serial／WebUSB）連接裝置以加速裝置開發，目前處於 Dogfood 內測階段\n• 統一 Web Console 前後端開發伺服器的執行方式並完成程式碼健康度整理，過程中運用內部 AI Coding Agent，以專案規則作為 Agent 記憶，並搭配 Agent Skills 與 Plan Mode 審查\n\n易用性：\n• 草擬 Web Console 的 Dogfood 問卷，聚焦非技術使用者的易用性（工具提示、文件、使用追蹤的透明度），並回報測試中發現的易用性問題"
+      },
+      {
+        "company": "Lityo",
+        "badges": ["Client: 國泰世華銀行", "Onsite"],
+        "title": "前端工程師",
+        "logo": "",
+        "start": "2024/11",
+        "end": "2026/05",
+        "description": "架構與交付：\n• 運用 Angular 18 打造模組化 CMS，縮短新頁面開發時間達 40%，提升 15+ 元件的程式碼重用性；依銀行業務單位需求開發各模組\n\n團隊賦能：\n• 建置安全認證系統與 API 架構，使 2+ 位團隊成員能獨立開發與除錯，縮短 50% 上手時間\n\n程式品質：\n• 抽象化資料流函式庫並建立程式碼規範，提升程式碼可讀性與維護效率達 35%\n\n基礎建設：\n• 於銀行封閉網路（Air-gapped）部署開發環境，符合嚴格資安規範"
       },
       {
         "company": "Seidor APA",
@@ -108,9 +117,9 @@
         "badges": ["Hybris"],
         "title": "前端工程師",
         "logo": "SeidorLogo",
-        "start": "2023",
-        "end": "2024",
-        "description": "效能優化：\n• 主導Angular/Spartacus電商平台從CSR遷移至SSR，首次頁面載入時間提升60%並改善SEO表現\n\n架構與擴展性：\n• 重構Redux狀態管理架構，降低程式碼複雜度達30%，讓4+位團隊成員能無縫共享資料\n\n關鍵錯誤修復：\n• 解決影響15%結帳交易的關鍵付款session錯誤，避免預估營收損失\n\n開發速度：\n• 建立跨裝置測試流程（Ngrok、Android Studio）與客製化NPM模組，加速開發速度達45%"
+        "start": "2023/05",
+        "end": "2024/10",
+        "description": "客戶交付與效能優化：\n• 主導 Falcon Pack（阿聯酋）SAP Commerce 正式站從 CSR 遷移至 SSR，首次頁面載入時間改善 60%，並提升 SEO 表現；於西班牙團隊中直接與客戶合作\n\n架構與擴展性：\n• 重構 Redux 狀態管理架構，降低程式碼複雜度達 30%，讓 4+ 位團隊成員能無縫共享資料\n\n關鍵錯誤修復：\n• 解決影響 15% 結帳交易的關鍵付款 Session 錯誤\n\n開發速度：\n• 建立跨裝置測試流程（Ngrok、Android Studio）與客製化 NPM 模組，提升開發速度達 45%"
       },
       {
         "company": "韋爻研策",
@@ -118,8 +127,8 @@
         "title": "前端工程師",
         "logo": "",
         "start": "2022",
-        "end": "2023",
-        "description": "專案基礎建設：\n• 建構Next.js專案架構，制定標準化資料夾結構、CSS規範與程式碼格式化規則，縮短程式碼審查時間達40%\n\n資料架構：\n• 設計完整資料流架構（Props、Context、Redux、Local Storage）與明確的API請求模式，提升20+元件的資料管理一致性\n\nDevOps與協作：\n• 建立Git工作流程與分支策略管理開發/正式環境，實現團隊無縫協作與零停機部署"
+        "end": "2023/04",
+        "description": "專案基礎建設：\n• 建構 Next.js 專案架構：資料夾結構、CSS 規範、程式碼格式化規則，以及區分開發／正式環境的 Git 分支策略\n\n資料架構：\n• 設計資料流架構（Props、Context、Redux、Local Storage）與一致的 API 請求模式，涵蓋 20+ 元件"
       }
     ],
     "skills": [

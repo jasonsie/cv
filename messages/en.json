@@ -93,14 +93,23 @@
     ],
     "work": [
       {
-        "company": "Cathay United Bank",
-        "link": "https://www.cathaybk.com.tw/overseas",
-        "badges": ["Onsite", "Contract"],
-        "title": "Front End Developer",
-        "logo": "CathayLogo",
-        "start": "2025",
+        "company": "Wipro",
+        "link": "https://www.wipro.com",
+        "badges": ["Client: Google", "Vendor"],
+        "title": "Software Engineer · Developer Tools",
+        "logo": "WiproLogo",
+        "start": "2026/06",
         "end": null,
-        "description": "Architecture & Design:\n• Architected Angular 18 Content Management System with modular component design, reducing new page development time by 40% and improving code reusability across 15+ components\n\nTeam Enablement:\n• Implemented secure authentication system and API architecture, enabling 2+ team members to independently develop and debug features with 50% faster onboarding\n\nCode Quality:\n• Abstracted data flow libraries and established coding standards, improving code readability and maintenance efficiency by 35%\n\nInfrastructure:\n• Successfully deployed development environment in air-gapped infrastructure, ensuring compliance with strict security requirements"
+        "description": "Device Developer Tooling:\n• Develop Angular front-end features and back-end endpoints for an internal web console that connects to devices from the browser (Web Serial/WebUSB) to speed up device development; now in dogfood\n• Standardized how the web console's front-end and back-end dev servers run and ran a code-health pass, using internal AI coding agents with project rules as agent memory, agent skills and plan-mode reviews\n\nUsability:\n• Drafted the web console's dogfood survey on usability for non-technical users (tooltips, docs, clarity on tracked activity) and filed usability bugs found in testing"
+      },
+      {
+        "company": "Lityo",
+        "badges": ["Client: Cathay United Bank", "Onsite"],
+        "title": "Front End Developer",
+        "logo": "",
+        "start": "2024/11",
+        "end": "2026/05",
+        "description": "Architecture & Delivery:\n• Architected a modular Angular 18 CMS, reducing new page development time by 40% and improving code reusability across 15+ components; built its modules from bank business units' requirements\n\nTeam Enablement:\n• Implemented the secure authentication system and API architecture, enabling 2+ team members to independently develop and debug features with 50% faster onboarding\n\nCode Quality:\n• Abstracted data-flow libraries and established coding standards, improving code readability and maintenance efficiency by 35%\n\nInfrastructure:\n• Deployed the development environment inside the bank's air-gapped network, meeting strict security requirements"
       },
       {
         "company": "Seidor APA",
@@ -108,9 +117,9 @@
         "badges": ["Hybris"],
         "title": "Front End Developer",
         "logo": "SeidorLogo",
-        "start": "2023",
-        "end": "2024",
-        "description": "Performance Optimization:\n• Led CSR to SSR migration for Angular/Spartacus e-commerce platform, improving initial page load time by 60% and SEO performance\n\nArchitecture & Scalability:\n• Refactored Redux state management architecture, reducing code complexity by 30% and enabling seamless data sharing across 4+ team members\n\nCritical Bug Resolution:\n• Resolved critical payment session bug affecting 15% of checkout transactions, preventing estimated $X revenue loss\n\nDevelopment Velocity:\n• Established cross-device testing workflow (Ngrok, Android Studio) and custom NPM modules, accelerating development velocity by 45%"
+        "start": "2023/05",
+        "end": "2024/10",
+        "description": "Client Delivery & Performance:\n• Led the CSR-to-SSR migration of Falcon Pack's live SAP Commerce storefront (UAE), improving initial page load time by 60% and SEO performance; worked directly with the client from a Spain-based team\n\nArchitecture & Scalability:\n• Refactored the Redux state-management architecture, reducing code complexity by 30% and enabling seamless data sharing across 4+ team members\n\nCritical Bug Resolution:\n• Resolved a critical payment-session bug affecting 15% of checkout transactions\n\nDevelopment Velocity:\n• Established a cross-device testing workflow (Ngrok, Android Studio) and custom NPM modules, accelerating development velocity by 45%"
       },
       {
         "company": "韋爻研策",
@@ -118,8 +127,8 @@
         "title": "Front End Developer",
         "logo": "",
         "start": "2022",
-        "end": "2023",
-        "description": "Project Foundation:\n• Architected Next.js project foundation with standardized folder structure, CSS conventions, and code formatting rules, reducing code review time by 40%\n\nData Architecture:\n• Designed comprehensive data flow architecture (Props, Context, Redux, Local Storage) with clear API fetching patterns, improving data management consistency across 20+ components\n\nDevOps & Collaboration:\n• Established Git workflow and branching strategy for development/production environments, enabling seamless team collaboration and zero-downtime deployments"
+        "end": "2023/04",
+        "description": "Project Foundation:\n• Architected the Next.js project foundation: folder structure, CSS conventions, formatting rules, and a Git branching strategy for separate development and production environments\n\nData Architecture:\n• Designed the data-flow architecture (Props, Context, Redux, Local Storage) with consistent API-fetching patterns across 20+ components"
       }
     ],
     "skills": [
