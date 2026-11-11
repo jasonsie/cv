@@ -1,15 +1,16 @@
-import { CathayLogo, FalconLogo, SeidorLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
+// English resume data for the page metadata and the /graphql `me` query.
+// The rendered page reads messages/*.json; mirror content changes here.
 export const RESUME_DATA = {
   name: "Sie Ren-Bin",
   initials: "Jason",
   location: "Taichung, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taichung",
   about:
-    "Front End developer, dedicated to user-friendly UI UX, scalable web applications and also javascript ecosystem",
+    "AI Agent / LLM Application Engineer with a frontend foundation — agent tooling, RAG/MCP integrations, and the UIs that ship them.",
   summary:
-    "I specialize in taking products from concept to implant and is also well-experience to cooperate with the international team. I excel in building scalable and maintainable code-base. For the current time, I am dedicated to the 'Javascript Ecosystem' with React, Next.js,Redux, Angular, Rxjs and a taste of Node.js for the most of the time.",
+    "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks for Claude Code, Codex, Pi and Antigravity, with cited retrieval and MCP integrations, and has wired OpenAI, Gemini and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
@@ -30,101 +31,112 @@ export const RESUME_DATA = {
   education: [
     {
       school: "National Taiwan Normal University",
-      degree: "Bachelor's Degree in Fine Arts Department",
+      degree: "Master's Degree, Department of Fine Arts (Art Theory)",
       start: "2014",
       end: "2018",
+    },
+    {
+      school: "National Taiwan Normal University",
+      degree: "Bachelor's Degree, Department of Fine Arts",
+      start: "2010",
+      end: "2014",
     },
   ],
   work: [
     {
-      company: "Cathay",
-      link: "https://www.cathaybk.com.tw/overseas",
-      badges: ["Onsite"],
-      title: "Front End Developer",
-      logo: CathayLogo,
-      start: "2025",
+      company: "Wipro",
+      link: "https://www.wipro.com",
+      badges: ["Client: Google", "Vendor"],
+      title: "Software Engineer · Developer Tools",
+      start: "2026/06",
       end: null,
-      description: `Essential
-                      • Customize Angular and Spartacus model to map CMS component data on the client side
-                      • Refactor the sharable logic of Redux data storage for team's usage
-                      • Introduce tools, Ngrok, Androind Studio..., to test on versatile devices
-                      • Customize NPM module to assist teams with the speed of development
-                      • Upgrade version for important features: CSR to SSR
-
-                    Support
-                    • Hot fix on payment issue by redesigning the moment of loading session
-                    • Refactor the legacy code for better readability and maintenance
-
-                    Others
-                    • Design UI/UX layout via Figma and generate the basic well-ruled wireframe
-                    • Basic concept about back-end and database in both Node.js and Java
-                    • Familiar with business logic of eCommerce, SAP Commerce and Hybris
-                    • Project management tools, Jira, Confluence...`,
+      description:
+        "Device Developer Tooling:\n• Develop Angular front-end features and back-end endpoints for an internal web console that connects to devices from the browser (Web Serial/WebUSB) to speed up device development; now in dogfood\n• Standardized how the web console's front-end and back-end dev servers run and ran a code-health pass, using internal AI coding agents with project rules as agent memory, agent skills and plan-mode reviews\n\nUsability:\n• Drafted the web console's dogfood survey on usability for non-technical users (tooltips, docs, clarity on tracked activity) and filed usability bugs found in testing",
+    },
+    {
+      company: "Lityo",
+      badges: ["Client: Cathay United Bank", "Onsite"],
+      title: "Front End Developer",
+      start: "2024/11",
+      end: "2026/05",
+      description:
+        "Architecture & Delivery:\n• Architected a modular Angular 18 CMS, reducing new page development time by 40% and improving code reusability across 15+ components; built its modules from bank business units' requirements\n\nTeam Enablement:\n• Implemented the secure authentication system and API architecture, enabling 2+ team members to independently develop and debug features with 50% faster onboarding\n\nCode Quality:\n• Abstracted data-flow libraries and established coding standards, improving code readability and maintenance efficiency by 35%\n\nInfrastructure:\n• Deployed the development environment inside the bank's air-gapped network, meeting strict security requirements",
     },
     {
       company: "Seidor APA",
       link: "https://www.linkedin.com/company/seidor/mycompany/",
       badges: ["Hybris"],
       title: "Front End Developer",
-      logo: SeidorLogo,
-      start: "2023",
-      end: "2024",
-      description: `Essential
-                      • Customize Angular and Spartacus model to map CMS component data on the client side
-                      • Refactor the sharable logic of Redux data storage for team's usage
-                      • Introduce tools, Ngrok, Androind Studio..., to test on versatile devices
-                      • Customize NPM module to assist teams with the speed of development
-                      • Upgrade version for important features: CSR to SSR
-
-                    Support
-                    • Hot fix on payment issue by redesigning the moment of loading session
-                    • Refactor the legacy code for better readability and maintenance
-
-                    Others
-                    • Design UI/UX layout via Figma and generate the basic well-ruled wireframe
-                    • Basic concept about back-end and database in both Node.js and Java
-                    • Familiar with business logic of eCommerce, SAP Commerce and Hybris
-                    • Project management tools, Jira, Confluence...`,
+      start: "2023/05",
+      end: "2024/10",
+      description:
+        "Client Delivery & Performance:\n• Led the CSR-to-SSR migration of Falcon Pack's live SAP Commerce storefront (UAE), improving initial page load time by 60% and SEO performance; worked directly with the client from a Spain-based team\n\nArchitecture & Scalability:\n• Refactored the Redux state-management architecture, reducing code complexity by 30% and enabling seamless data sharing across 4+ team members\n\nCritical Bug Resolution:\n• Resolved a critical payment-session bug affecting 15% of checkout transactions\n\nDevelopment Velocity:\n• Established a cross-device testing workflow (Ngrok, Android Studio) and custom NPM modules, accelerating development velocity by 45%",
     },
     {
       company: "韋爻研策",
-      link: "https://parabol.co",
-      badges: ["Office"],
+      badges: ["Onsite"],
       title: "Front End Developer",
-      logo: "",
       start: "2022",
-      end: "2023",
-      description: `Implemented new features, improved code delivery process, and initiated migration to Next.js. 
-         Technologies: React, TypeScript, GraphQL`,
+      end: "2023/04",
+      description:
+        "Project Foundation:\n• Architected the Next.js project foundation: folder structure, CSS conventions, formatting rules, and a Git branching strategy for separate development and production environments\n\nData Architecture:\n• Designed the data-flow architecture (Props, Context, Redux, Local Storage) with consistent API-fetching patterns across 20+ components",
     },
   ],
   skills: [
-    "JavaScript",
+    "Claude Code",
+    "Skills & subagents",
+    "Multi-agent pipelines",
+    "Prompt & context engineering",
+    "Codex CLI",
+    "Antigravity",
+    "OpenAI API",
+    "Gemini API",
+    "Ollama (local models)",
+    "Cited retrieval",
+    "MCP",
+    "Agent-callable CLIs",
+    "Guardrail hooks",
     "TypeScript",
+    "JavaScript",
     "React/Next.js",
     "Angular",
-    "Rxjs",
-    "SAP Commerce",
-    "Spartacus",
+    "RxJS",
+    "Redux",
+    "SSR",
+    "SAP Commerce/Spartacus",
     "Node.js",
+    "Python",
+    "Bash",
+    "Git worktrees & PR flow",
+    "CI",
+    "Testing",
+    "ADRs & spec-driven development",
   ],
   projects: [
     {
-      title: "Falconpack",
+      title: "zkfy",
       techStack: [
-        "Front End Developer",
-        "TypeScript",
-        "Angular",
-        "Spartacus",
-        "SSR",
+        "Claude Code",
+        "Multi-agent",
+        "Skills & Hooks",
+        "Notion MCP",
+        "Python",
       ],
       description:
-        "The E-Commerce platform that is consulting to SAP Commerce Cloud with CMS structure in UAE",
-      logo: FalconLogo,
-      link: {
-        label: "github.com",
-        href: "https://falconpackonline.com/en/",
-      },
+        "Multi-agent Claude Code plugin (also on Codex, Pi, Antigravity) turning URLs, videos and text into linked Obsidian notes: eight prompt-defined agents run a discover → distill → render → integrate pipeline, with cited vault retrieval, Notion MCP intake and web-clipper, a companion agent-callable clipper built on Obsidian Web Clipper. v1.8.1, 88 unit tests.",
+      link: { label: "github.com", href: "https://github.com/jasonsie/zkfy" },
+    },
+    {
+      title: "ai-dotfiles",
+      techStack: ["Claude Code", "Codex CLI", "Pi", "Antigravity", "Python"],
+      description:
+        "One agent toolkit for four coding-agent CLIs from a single source: 17 original skills plus adapted community ones, shared MCP config, and guardrail hooks such as a PreToolUse hook that gives each agent task its own git worktree (1,388 lines, 107 tests); a nightly headless Claude Code run, limited to one allowlisted command, writes a personal dev log. 654 tests in CI.",
+    },
+    {
+      title: "lan2cli",
+      techStack: ["TypeScript", "OpenAI API", "Gemini API", "Ollama"],
+      description:
+        "Natural-language-to-shell CLI forked from Builder.io's ai-shell. Refactored its OpenAI-only code into one provider interface over OpenAI, Gemini and local open-source models via Ollama, with streams normalized to one SSE shape and about 64 tests.",
     },
   ],
 } as const;

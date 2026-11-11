@@ -14,8 +14,8 @@ export class Contact {
   @Field(() => String)
   email: string;
 
-  @Field(() => String)
-  tel: string;
+  @Field(() => String, { nullable: true })
+  tel?: string;
 
   @Field(() => [Social])
   social: Social[];
@@ -41,8 +41,8 @@ export class Work {
   @Field(() => String)
   company: string;
 
-  @Field(() => String)
-  link: string;
+  @Field(() => String, { nullable: true })
+  link?: string;
 
   @Field(() => [String])
   badges: string[];
@@ -53,8 +53,8 @@ export class Work {
   @Field(() => String)
   start: string;
 
-  @Field(() => String)
-  end: string;
+  @Field(() => String, { nullable: true })
+  end?: string | null;
 
   @Field(() => String)
   description: string;
