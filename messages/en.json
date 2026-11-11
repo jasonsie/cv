@@ -49,11 +49,11 @@
   },
   "ResumePage": {
     "name": "Sie Ren-Bin",
-    "about": "Front End developer, dedicated to user-friendly UI UX, scalable web applications and also javascript ecosystem",
+    "about": "AI Agent / LLM Application Engineer with a frontend foundation — agent tooling, RAG/MCP integrations, and the UIs that ship them.",
     "location": "Taichung, Taiwan",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "Specialized in full product development lifecycle, from concept to deployment. Experienced in international teams (Spain-based). Expert in building scalable and maintainable codebases. Core tech stack: JavaScript ecosystem (React, Next.js, Redux, Angular, RxJS) with Node.js backend experience.",
+    "summary": "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks for Claude Code, Codex, Pi and Antigravity, with cited retrieval and MCP integrations, and has wired OpenAI, Gemini and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
     "present": "Present",
     "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
