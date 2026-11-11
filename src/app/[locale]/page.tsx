@@ -133,7 +133,7 @@ export default function ResumePage({ params: { locale } }: Props) {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between text-base gap-x-2">
-                    <h3 className="inline-flex items-center justify-center font-semibold leading-none gap-x-1">
+                    <h3 className="inline-flex flex-wrap items-center gap-1 font-semibold leading-none">
                       {logo && (
                         <Image
                           src={logo}
@@ -147,7 +147,7 @@ export default function ResumePage({ params: { locale } }: Props) {
                         {work.company}
                       </a>
 
-                      <span className="inline-flex gap-x-1">
+                      <span className="inline-flex flex-wrap gap-1">
                         {badgesls.map((badge: string) => {
                           return (
                             <Badge
