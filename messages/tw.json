@@ -50,7 +50,7 @@
   "ResumePage": {
     "name": "謝仁繽",
     "about": "AI Agent／LLM 應用工程師（前端出身），打造 Agent 工具鏈、RAG 與 MCP 整合，並交付可上線的介面。",
-    "location": "臺中, 臺灣",
+    "location": "臺灣臺中",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
     "summary": "自 2022 年起從事網頁開發，涵蓋銀行與電商客戶專案，現專注於 AI Agent。現任 Wipro 派駐 Google 的 Vendor 工程師，參與開發可從瀏覽器連接裝置的內部 Web Console。為 Claude Code、Codex、Pi 與 Antigravity 打造多 Agent 流程、Agent 可呼叫的工具與防護 Hooks，並整合附來源引用的檢索與 MCP；亦以單一 Provider 介面串接 OpenAI、Gemini 與地端開源模型（Ollama）。直接與業務端合作，將需求落地為上線功能。",
