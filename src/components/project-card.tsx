@@ -29,7 +29,6 @@ export function ProjectCard({
   logo,
   image,
 }: Props) {
-  console.log("image", image);
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3 print:p-2">
       <CardHeader>
