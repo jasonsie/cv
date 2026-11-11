@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "AI Agent / LLM Application Engineer with a frontend foundation — agent tooling, RAG/MCP integrations, and the UIs that ship them.",
   summary:
-    "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks for Claude Code, Codex, Pi and Antigravity, with cited retrieval and MCP integrations, and has wired OpenAI, Gemini and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
+    "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks for Claude Code, Codex, Pi and Antigravity, with cited retrieval and MCP integrations, and has wired OpenAI, Claude, Gemini and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
@@ -90,6 +90,7 @@ export const RESUME_DATA = {
     "Codex CLI",
     "Antigravity",
     "OpenAI API",
+    "Claude API",
     "Gemini API",
     "Ollama (local models)",
     "Cited retrieval",
@@ -134,9 +135,19 @@ export const RESUME_DATA = {
     },
     {
       title: "lan2cli",
-      techStack: ["TypeScript", "OpenAI API", "Gemini API", "Ollama"],
+      techStack: [
+        "TypeScript",
+        "OpenAI API",
+        "Claude API",
+        "Gemini API",
+        "Ollama",
+      ],
       description:
-        "Natural-language-to-shell CLI forked from Builder.io's ai-shell. Refactored its OpenAI-only code into one provider interface over OpenAI, Gemini and local open-source models via Ollama, with streams normalized to one SSE shape and about 64 tests.",
+        "Natural-language-to-shell CLI forked from Builder.io's ai-shell. Refactored its OpenAI-only code into one provider interface over OpenAI, Claude, Gemini and local open-source models via Ollama, with streams normalized to one SSE shape and 121 tests.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/jasonsie/lan2cli",
+      },
     },
   ],
 } as const;

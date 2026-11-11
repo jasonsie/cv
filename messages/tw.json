@@ -53,7 +53,7 @@
     "location": "臺灣臺中",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "自 2022 年起從事網頁開發，涵蓋銀行與電商客戶專案，現專注於 AI Agent。現任 Wipro 派駐 Google 的 Vendor 工程師，參與開發可從瀏覽器連接裝置的內部 Web Console。為 Claude Code、Codex、Pi 與 Antigravity 打造多 Agent 流程、Agent 可呼叫的工具與防護 Hooks，並整合附來源引用的檢索與 MCP；亦以單一 Provider 介面串接 OpenAI、Gemini 與地端開源模型（Ollama）。直接與業務端合作，將需求落地為上線功能。",
+    "summary": "自 2022 年起從事網頁開發，涵蓋銀行與電商客戶專案，現專注於 AI Agent。現任 Wipro 派駐 Google 的 Vendor 工程師，參與開發可從瀏覽器連接裝置的內部 Web Console。為 Claude Code、Codex、Pi 與 Antigravity 打造多 Agent 流程、Agent 可呼叫的工具與防護 Hooks，並整合附來源引用的檢索與 MCP；亦以單一 Provider 介面串接 OpenAI、Claude、Gemini 與地端開源模型（Ollama）。直接與業務端合作，將需求落地為上線功能。",
     "present": "至今",
     "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
@@ -145,7 +145,12 @@
       },
       {
         "group": "LLM API 與模型",
-        "items": ["OpenAI API", "Gemini API", "Ollama（地端模型）"]
+        "items": [
+          "OpenAI API",
+          "Claude API",
+          "Gemini API",
+          "Ollama（地端模型）"
+        ]
       },
       {
         "group": "檢索與工具",
@@ -207,9 +212,19 @@
       {
         "title": "lan2cli",
         "position": "多 Provider 重構",
-        "business": ["LLM CLI", "私有 Fork"],
-        "techStack": ["TypeScript", "OpenAI API", "Gemini API", "Ollama"],
-        "description": "自然語言轉 Shell 指令的 CLI，Fork 自 Builder.io 的 ai-shell。將其僅支援 OpenAI 的程式重構為單一 Provider 介面，串接 OpenAI、Gemini 與透過 Ollama 執行的地端開源模型，統一各家串流為同一 SSE 格式，並撰寫約 64 個測試。"
+        "business": ["LLM CLI", "開源"],
+        "techStack": [
+          "TypeScript",
+          "OpenAI API",
+          "Claude API",
+          "Gemini API",
+          "Ollama"
+        ],
+        "description": "自然語言轉 Shell 指令的 CLI，Fork 自 Builder.io 的 ai-shell。將其僅支援 OpenAI 的程式重構為單一 Provider 介面，串接 OpenAI、Claude、Gemini 與透過 Ollama 執行的地端開源模型，統一各家串流為同一 SSE 格式，並撰寫 121 個測試。",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/jasonsie/lan2cli"
+        }
       }
     ]
   }
