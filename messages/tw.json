@@ -175,50 +175,41 @@
     ],
     "projects": [
       {
-        "title": "Falconpack",
-        "position": "前端開發",
-        "business": ["電子商務"],
+        "title": "zkfy",
+        "position": "作者",
+        "business": ["AI Agent", "開源"],
         "techStack": [
-          "TypeScript",
-          "Angular",
-          "Spartacus",
-          "SSR",
-          "GTM",
-          "Google Map"
+          "Claude Code",
+          "Multi-agent",
+          "Skills & Hooks",
+          "Notion MCP",
+          "Python"
         ],
-        "description": "Falcon Pack Online 位於阿聯酋，致力於提供廣泛的包裝解決方案。Falcon Pack 是一家領先的一次性食品包裝產品製造商和分銷商。",
-        "logo": "FalconLogo",
-        "image": "/images/falconImg.webp",
+        "description": "多 Agent 的 Claude Code 外掛（亦支援 Codex、Pi、Antigravity），將網址、影片與文字轉為互相連結的 Obsidian 筆記：8 個以 Prompt 定義的 Agent 依序執行 Discover → Distill → Render → Integrate 流程，搭配附來源引用的知識庫檢索、Notion MCP 匯入，以及基於 Obsidian Web Clipper 打造、Agent 可呼叫的配套擷取工具 web-clipper。v1.8.1，88 個單元測試。",
         "link": {
           "label": "github.com",
-          "href": "https://falconpackonline.com/en/"
+          "href": "https://github.com/jasonsie/zkfy"
         }
       },
       {
-        "title": "內外之相 | 曾培堯 Tseng Pei-Yao 活動網站",
-        "position": "Full Stack Developer",
-        "business": ["Event"],
-        "techStack": ["TypeScript", "React", "Next.js", "MongoDB", "Animation"],
-        "description": "This is a website for the exhibition, 'The Inner, Outer Self and In-between: Tseng Pei-yao';",
-        "logo": "TsengLogo",
-        "image": "/images/tseng.webp",
-        "link": {
-          "label": "github.com",
-          "href": "https://tseng-pei-yao.vercel.app/"
-        }
+        "title": "ai-dotfiles",
+        "position": "作者",
+        "business": ["Agent 工具", "私有 · 可提供展示"],
+        "techStack": [
+          "Claude Code",
+          "Codex CLI",
+          "Pi",
+          "Antigravity",
+          "Python"
+        ],
+        "description": "以單一來源供四個 Coding Agent CLI 使用的 Agent 工具組：17 個原創 Skills（另含改編自社群的 Skills）、共用 MCP 設定與防護 Hooks，例如讓每個 Agent 任務擁有獨立 git worktree 的 PreToolUse Hook（1,388 行、107 個測試）；每晚以 Headless 模式執行、僅允許單一指令的 Claude Code 自動產生個人開發日誌。CI 共 654 個測試。"
       },
       {
-        "title": "春源畫室 x 南美館 活動網站",
-        "position": "Full Stack Developer",
-        "business": ["Event"],
-        "techStack": ["TypeScript", "React", "Next.js", "Map"],
-        "description": "This is a website for the exhibition, 'Crescendo: Three Generations of Tshun-Guân Art Studio'",
-        "logo": "TsengLogo",
-        "image": "/images/templeMap.webp",
-        "link": {
-          "label": "github.com",
-          "href": "https://temple-map.vercel.app/"
-        }
+        "title": "lan2cli",
+        "position": "多 Provider 重構",
+        "business": ["LLM CLI", "私有 Fork"],
+        "techStack": ["TypeScript", "OpenAI API", "Gemini API", "Ollama"],
+        "description": "自然語言轉 Shell 指令的 CLI，Fork 自 Builder.io 的 ai-shell。將其僅支援 OpenAI 的程式重構為單一 Provider 介面，串接 OpenAI、Gemini 與透過 Ollama 執行的地端開源模型，統一各家串流為同一 SSE 格式，並撰寫約 64 個測試。"
       }
     ]
   }

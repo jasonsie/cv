@@ -185,50 +185,41 @@
     ],
     "projects": [
       {
-        "title": "Falconpack",
-        "position": "Front End Developer",
-        "business": ["E-Commerce"],
+        "title": "zkfy",
+        "position": "Creator",
+        "business": ["AI Agent", "Open Source"],
         "techStack": [
-          "TypeScript",
-          "Angular",
-          "Spartacus",
-          "SSR",
-          "GTM",
-          "Google Map"
+          "Claude Code",
+          "Multi-agent",
+          "Skills & Hooks",
+          "Notion MCP",
+          "Python"
         ],
-        "description": "Based on UAE, The Falcon Pack Online is dedicated to providing a wide range of packaging solutions. Falcon Pack is a leading manufacturer and distributor of disposable food packaging products.",
-        "logo": "FalconLogo",
-        "image": "/images/falconImg.webp",
+        "description": "Multi-agent Claude Code plugin (also on Codex, Pi, Antigravity) turning URLs, videos and text into linked Obsidian notes: eight prompt-defined agents run a discover → distill → render → integrate pipeline, with cited vault retrieval, Notion MCP intake and web-clipper, a companion agent-callable clipper built on Obsidian Web Clipper. v1.8.1, 88 unit tests.",
         "link": {
           "label": "github.com",
-          "href": "https://falconpackonline.com/en/"
+          "href": "https://github.com/jasonsie/zkfy"
         }
       },
       {
-        "title": "內外之相 | 曾培堯 Tseng Pei-Yao Website",
-        "position": "Full Stack Developer",
-        "business": ["Event"],
-        "techStack": ["TypeScript", "React", "Next.js", "MongoDB", "Animation"],
-        "description": "This is a website for the exhibition, 'The Inner, Outer Self and In-between: Tseng Pei-yao';",
-        "logo": "TsengLogo",
-        "image": "/images/tseng.webp",
-        "link": {
-          "label": "github.com",
-          "href": "https://tseng-pei-yao.vercel.app/"
-        }
+        "title": "ai-dotfiles",
+        "position": "Creator",
+        "business": ["Agent Tooling", "Private · demo on request"],
+        "techStack": [
+          "Claude Code",
+          "Codex CLI",
+          "Pi",
+          "Antigravity",
+          "Python"
+        ],
+        "description": "One agent toolkit for four coding-agent CLIs from a single source: 17 original skills plus adapted community ones, shared MCP config, and guardrail hooks such as a PreToolUse hook that gives each agent task its own git worktree (1,388 lines, 107 tests); a nightly headless Claude Code run, limited to one allowlisted command, writes a personal dev log. 654 tests in CI."
       },
       {
-        "title": "春源畫室 x 南美館 Website",
-        "position": "Full Stack Developer",
-        "business": ["Event"],
-        "techStack": ["TypeScript", "React", "Next.js", "Map"],
-        "description": "This is a website for the exhibition, 'Crescendo: Three Generations of Tshun-Guân Art Studio'",
-        "logo": "TsengLogo",
-        "image": "/images/templeMap.webp",
-        "link": {
-          "label": "github.com",
-          "href": "https://temple-map.vercel.app/"
-        }
+        "title": "lan2cli",
+        "position": "Multi-provider refactor",
+        "business": ["LLM CLI", "Private fork"],
+        "techStack": ["TypeScript", "OpenAI API", "Gemini API", "Ollama"],
+        "description": "Natural-language-to-shell CLI forked from Builder.io's ai-shell. Refactored its OpenAI-only code into one provider interface over OpenAI, Gemini and local open-source models via Ollama, with streams normalized to one SSE shape and about 64 tests."
       }
     ]
   }
