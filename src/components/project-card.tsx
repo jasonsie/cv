@@ -31,7 +31,7 @@ export function ProjectCard({
 }: Props) {
   console.log("image", image);
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className="flex flex-col overflow-hidden border border-muted p-3 print:p-2">
       <CardHeader>
         <div>
           <CardTitle className="text-base">
@@ -57,7 +57,7 @@ export function ProjectCard({
               title
             )}
           </CardTitle>
-          <div className="tagsContainer flex flex-wrap gap-2 mb-5 mt-2">
+          <div className="tagsContainer flex flex-wrap gap-2 mb-5 mt-2 print:mb-1 print:mt-1">
             <div className="flex flex-wrap gap-1 border-r-2 pr-4 last:border-r-0">
               {business.map((tag) => (
                 <Badge
@@ -93,7 +93,7 @@ export function ProjectCard({
       </CardHeader>
       <CardContent className="mt-auto flex flex-col">
         <div className="flex">
-          <CardDescription className="me-8 w-full flex-1 hyphens-auto text-justify font-mono text-xs print:text-[10px]">
+          <CardDescription className="me-8 w-full flex-1 hyphens-auto text-justify font-mono text-xs print:text-[10px] print:leading-snug">
             {description}
           </CardDescription>
           {image && (

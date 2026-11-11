@@ -46,12 +46,12 @@ export default function ResumePage({ params: { locale } }: Props) {
   const projects = messages.ResumePage?.projects ?? [];
 
   return (
-    <main className="container relative p-4 mx-auto overflow-auto scroll-my-12 print:p-12 md:p-16">
-      <section className="w-full max-w-2xl mx-auto space-y-8 bg-white print:space-y-4">
+    <main className="container relative p-4 mx-auto overflow-auto scroll-my-12 print:!px-10 print:!pb-0 print:!pt-10 md:p-16">
+      <section className="w-full max-w-2xl mx-auto space-y-8 bg-white print:max-w-none print:space-y-3">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{resumePageT("name")}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:max-w-xl print:text-[12px]">
               {resumePageT("about")}
             </p>
             <p className="items-center max-w-md font-mono text-xs text-pretty text-muted-foreground">
@@ -105,7 +105,7 @@ export default function ResumePage({ params: { locale } }: Props) {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-28 print:size-20">
             <AvatarImage
               alt={resumePageT("name")}
               src={resumePageT("avatarUrl")}
@@ -117,7 +117,7 @@ export default function ResumePage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold">
             {resumePageLayoutT("title.about")}
           </h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
+          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[11px] print:leading-snug">
             {resumePageT("summary")}
           </p>
         </Section>
@@ -130,8 +130,8 @@ export default function ResumePage({ params: { locale } }: Props) {
             const badgesls = work.badges;
 
             return (
-              <Card key={work.company}>
-                <CardHeader>
+              <Card key={work.company} className="print:break-inside-auto">
+                <CardHeader className="print:break-inside-avoid print:break-after-avoid">
                   <div className="flex items-center justify-between text-base gap-x-2">
                     <h3 className="inline-flex flex-wrap items-center gap-1 font-semibold leading-none">
                       {logo && (
@@ -170,8 +170,15 @@ export default function ResumePage({ params: { locale } }: Props) {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 whitespace-pre-line text-xs print:text-[10px]">
-                  {work.description}
+                <CardContent className="mt-2 space-y-3 text-xs print:mt-1 print:space-y-1 print:text-[10px] print:leading-snug">
+                  {work.description.split("\n\n").map((block: string) => (
+                    <p
+                      key={block}
+                      className="whitespace-pre-line print:break-inside-avoid"
+                    >
+                      {block}
+                    </p>
+                  ))}
                 </CardContent>
               </Card>
             );
@@ -223,7 +230,7 @@ export default function ResumePage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold">
             {resumePageLayoutT("title.projects")}
           </h2>
-          <div className="-mx-3">
+          <div className="-mx-3 print:-mx-2">
             {projects.map((project: any) => {
               const logo = _logo[project.logo as keyof typeof _logo];
               return (

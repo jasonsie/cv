@@ -37,7 +37,7 @@ export default function LocaleSwitcherSelect({
   return (
     <label
       className={clsx(
-        "fixed right-3 top-3 z-50 text-gray-400 bg-white",
+        "fixed right-3 top-3 z-50 text-gray-400 bg-white print:hidden",
         isPending && "transition-opacity [&:disabled]:opacity-30",
       )}
     >
