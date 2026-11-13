@@ -49,11 +49,11 @@
   },
   "ResumePage": {
     "name": "Sie Ren-Bin",
-    "about": "AI Agent / LLM Application Engineer with a frontend foundation — agent tooling, RAG/MCP integrations, and the UIs that ship them.",
+    "about": "AI Agent / LLM Application Engineer with a front-end foundation — agent tooling, RAG/MCP integrations, and the UIs that ship them.",
     "location": "Taichung, Taiwan",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks for Claude Code, Codex, Pi and Antigravity, with cited retrieval and MCP integrations, and has wired OpenAI, Claude, Gemini and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
+    "summary": "Software engineer building web apps since 2022, including banking and e-commerce client work, now focused on AI agents. Currently a vendor engineer at Google via Wipro, working on an internal browser-to-device web console. Builds multi-agent pipelines, agent-callable tools and guardrail hooks (automatic checks on agent actions) for the AI coding agents Claude Code, Codex CLI, Pi and Antigravity. Also builds cited retrieval (RAG that cites its sources) and MCP integrations, which connect agents to outside tools and data. Has wired the OpenAI, Claude and Gemini APIs and local open-source models (Ollama) behind one provider interface. Works directly with business stakeholders to turn requirements into shipped features.",
     "present": "Present",
     "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
@@ -100,7 +100,7 @@
         "logo": "WiproLogo",
         "start": "2026/06",
         "end": null,
-        "description": "Device Developer Tooling:\n• Develop Angular front-end features and back-end endpoints for an internal web console that connects to devices from the browser (Web Serial/WebUSB) to speed up device development; now in dogfood\n• Standardized how the web console's front-end and back-end dev servers run and ran a code-health pass, using internal AI coding agents with project rules as agent memory, agent skills and plan-mode reviews\n\nUsability:\n• Drafted the web console's dogfood survey on usability for non-technical users (tooltips, docs, clarity on tracked activity) and filed usability bugs found in testing"
+        "description": "Web Console, Now in Dogfood (Internal Trial):\n• Develop Angular front-end features and back-end endpoints for an internal web console that connects to devices from the browser (Web Serial/WebUSB) for faster device development\n• Standardized how its front-end and back-end dev servers run, and ran a code-health pass\n• Used internal AI coding agents for both, with project rules as agent memory, agent skills (reusable instructions) and plan-mode reviews (plans checked before edits)\n\nUsability:\n• Drafted the web console's dogfood survey on usability for non-technical users (tooltips, docs, clarity on tracked activity)\n• Filed usability bugs found in testing"
       },
       {
         "company": "Lityo",
@@ -109,17 +109,17 @@
         "logo": "",
         "start": "2024/11",
         "end": "2026/05",
-        "description": "Architecture & Delivery:\n• Architected a modular Angular 18 CMS, reducing new page development time by 40% and improving code reusability across 15+ components; built its modules from bank business units' requirements\n\nTeam Enablement:\n• Implemented the secure authentication system and API architecture, enabling 2+ team members to independently develop and debug features with 50% faster onboarding\n\nCode Quality:\n• Abstracted data-flow libraries and established coding standards, improving code readability and maintenance efficiency by 35%\n\nInfrastructure:\n• Deployed the development environment inside the bank's air-gapped network, meeting strict security requirements"
+        "description": "Bank CMS:\n• Architected a modular Angular 18 CMS and built its modules from bank business units' requirements\n• Cut new page development time by 40% and improved code reusability across 15+ components\n\nAuthentication, API & Coding Standards:\n• Implemented the secure authentication system and API architecture, so 2+ team members could develop and debug features independently, with 50% faster onboarding\n• Abstracted data-flow libraries and set coding standards, making code 35% easier to read and maintain\n\nAir-Gapped Deployment:\n• Deployed the development environment inside the bank's air-gapped network (cut off from outside networks), meeting strict security requirements"
       },
       {
         "company": "Seidor APA",
         "link": "https://www.linkedin.com/company/seidor/mycompany/",
-        "badges": ["Hybris"],
+        "badges": ["SAP Commerce (Hybris)"],
         "title": "Front End Developer",
         "logo": "SeidorLogo",
         "start": "2023/05",
         "end": "2024/10",
-        "description": "Client Delivery & Performance:\n• Led the CSR-to-SSR migration of Falcon Pack's live SAP Commerce storefront (UAE), improving initial page load time by 60% and SEO performance; worked directly with the client from a Spain-based team\n\nArchitecture & Scalability:\n• Refactored the Redux state-management architecture, reducing code complexity by 30% and enabling seamless data sharing across 4+ team members\n\nCritical Bug Resolution:\n• Resolved a critical payment-session bug affecting 15% of checkout transactions\n\nDevelopment Velocity:\n• Established a cross-device testing workflow (Ngrok, Android Studio) and custom NPM modules, accelerating development velocity by 45%"
+        "description": "CSR-to-SSR Migration (Client-Side to Server-Side Rendering):\n• Led the CSR-to-SSR migration of Falcon Pack's live SAP Commerce storefront (UAE)\n• Improved initial page load time by 60% and raised SEO performance\n• Worked directly with the client as part of a Spain-based team\n\nState Management, Payment Bug & Testing:\n• Refactored the Redux state-management architecture, cutting code complexity by 30% and letting 4+ team members share data\n• Resolved a critical payment-session bug affecting 15% of checkout transactions\n• Set up a cross-device testing workflow (Ngrok, Android Studio) and built custom NPM modules, speeding up development by 45%"
       },
       {
         "company": "韋爻研策",
@@ -128,7 +128,7 @@
         "logo": "",
         "start": "2022",
         "end": "2023/04",
-        "description": "Project Foundation:\n• Architected the Next.js project foundation: folder structure, CSS conventions, formatting rules, and a Git branching strategy for separate development and production environments\n\nData Architecture:\n• Designed the data-flow architecture (Props, Context, Redux, Local Storage) with consistent API-fetching patterns across 20+ components"
+        "description": "Next.js Project Foundation:\n• Architected the folder structure, CSS conventions, formatting rules, and a Git branching strategy for separate development and production environments\n\nData-Flow Architecture:\n• Designed how data flows through Props, Context, Redux and Local Storage, with consistent API-fetching patterns across 20+ components"
       }
     ],
     "skills": [
@@ -200,7 +200,7 @@
           "Notion MCP",
           "Python"
         ],
-        "description": "Multi-agent Claude Code plugin (also on Codex, Pi, Antigravity) turning URLs, videos and text into linked Obsidian notes: eight prompt-defined agents run a discover → distill → render → integrate pipeline, with cited vault retrieval, Notion MCP intake and web-clipper, a companion agent-callable clipper built on Obsidian Web Clipper. v1.8.1, 88 unit tests.",
+        "description": "Turns URLs, videos and text into linked notes in the Obsidian app. A multi-agent Claude Code plugin (also on Codex CLI, Pi, Antigravity): eight prompt-defined agents run a discover → distill → render → integrate pipeline. Adds cited retrieval from those notes, Notion MCP import and web-clipper (an agent-callable companion built on Obsidian Web Clipper). v1.8.1, 88 unit tests.",
         "link": {
           "label": "github.com",
           "href": "https://github.com/jasonsie/zkfy"
@@ -217,7 +217,7 @@
           "Antigravity",
           "Python"
         ],
-        "description": "One agent toolkit for four coding-agent CLIs from a single source: 17 original skills plus adapted community ones, shared MCP config, and guardrail hooks such as a PreToolUse hook that gives each agent task its own git worktree (1,388 lines, 107 tests); a nightly headless Claude Code run, limited to one allowlisted command, writes a personal dev log. 654 tests in CI."
+        "description": "One source of agent tooling for four AI coding agents: 17 original agent skills plus adapted community ones, shared MCP config and guardrail hooks. One PreToolUse hook (1,388 lines, 107 tests) gives each agent task its own Git worktree (working copy). A nightly headless (unattended) Claude Code run, limited to one pre-approved command, writes a personal dev log. 654 tests in CI."
       },
       {
         "title": "lan2cli",
@@ -230,7 +230,7 @@
           "Gemini API",
           "Ollama"
         ],
-        "description": "Natural-language-to-shell CLI forked from Builder.io's ai-shell. Refactored its OpenAI-only code into one provider interface over OpenAI, Claude, Gemini and local open-source models via Ollama, with streams normalized to one SSE shape and 121 tests.",
+        "description": "CLI that turns natural-language requests into shell commands, forked from Builder.io's ai-shell. Refactored its OpenAI-only code so OpenAI, Claude, Gemini and local open-source models (Ollama) share one provider interface. Normalized each provider's streamed replies to one SSE (server-sent events) format. 121 tests.",
         "link": {
           "label": "github.com",
           "href": "https://github.com/jasonsie/lan2cli"

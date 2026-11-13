@@ -53,7 +53,7 @@
     "location": "臺灣臺中",
     "locationLink": "https://www.google.com/maps/place/Taichung",
     "initials": "",
-    "summary": "自 2022 年起從事網頁開發，涵蓋銀行與電商客戶專案，現專注於 AI Agent。現任 Wipro 派駐 Google 的 Vendor 工程師，參與開發可從瀏覽器連接裝置的內部 Web Console。為 Claude Code、Codex、Pi 與 Antigravity 打造多 Agent 流程、Agent 可呼叫的工具與防護 Hooks，並整合附來源引用的檢索與 MCP；亦以單一 Provider 介面串接 OpenAI、Claude、Gemini 與地端開源模型（Ollama）。直接與業務端合作，將需求落地為上線功能。",
+    "summary": "自 2022 年起從事網頁開發，涵蓋銀行與電商客戶專案，現專注於 AI Agent。現任 Wipro 派駐 Google 的 Vendor 工程師，參與開發可從瀏覽器連接裝置的內部 Web Console。為 Claude Code、Codex CLI、Pi 與 Antigravity 等 AI Coding Agent 打造多 Agent 流程、Agent 可呼叫的工具與防護 Hooks（自動檢查 Agent 行為的機制）。亦打造附來源引用的檢索（RAG）與 MCP 整合，讓 Agent 連接外部工具與資料。以單一 Provider 介面串接 OpenAI、Claude、Gemini API 與地端開源模型（Ollama）。直接與業務端合作，將需求落地為上線功能。",
     "present": "至今",
     "avatarUrl": "/images/face.png",
     "personalWebsiteUrl": "",
@@ -100,7 +100,7 @@
         "logo": "WiproLogo",
         "start": "2026/06",
         "end": null,
-        "description": "裝置開發工具：\n• 為內部 Web Console 開發 Angular 前端功能與後端 API；該工具透過瀏覽器（Web Serial／WebUSB）連接裝置以加速裝置開發，目前處於 Dogfood 內測階段\n• 統一 Web Console 前後端開發伺服器的執行方式並完成程式碼健康度整理，過程中運用內部 AI Coding Agent，以專案規則作為 Agent 記憶，並搭配 Agent Skills 與 Plan Mode 審查\n\n易用性：\n• 草擬 Web Console 的 Dogfood 問卷，聚焦非技術使用者的易用性（工具提示、文件、使用追蹤的透明度），並回報測試中發現的易用性問題"
+        "description": "Web Console（Dogfood 內測中）：\n• 為內部 Web Console 開發 Angular 前端功能與後端 API，該工具透過瀏覽器（Web Serial／WebUSB）連接裝置以加速裝置開發\n• 統一 Web Console 前後端開發伺服器的執行方式，並完成程式碼健康度整理\n• 上述工作皆運用內部 AI Coding Agent，以專案規則作為 Agent 記憶，搭配 Agent Skills（可重用的指令）與 Plan Mode 審查（先審計畫再修改）\n\n易用性：\n• 草擬 Web Console 的 Dogfood 問卷，聚焦非技術使用者的易用性（工具提示、文件、使用追蹤的透明度）\n• 回報測試中發現的易用性問題"
       },
       {
         "company": "Lityo",
@@ -109,17 +109,17 @@
         "logo": "",
         "start": "2024/11",
         "end": "2026/05",
-        "description": "架構與交付：\n• 運用 Angular 18 打造模組化 CMS，縮短新頁面開發時間達 40%，提升 15+ 元件的程式碼重用性；依銀行業務單位需求開發各模組\n\n團隊賦能：\n• 建置安全認證系統與 API 架構，使 2+ 位團隊成員能獨立開發與除錯，縮短 50% 上手時間\n\n程式品質：\n• 抽象化資料流函式庫並建立程式碼規範，提升程式碼可讀性與維護效率達 35%\n\n基礎建設：\n• 於銀行封閉網路（Air-gapped）部署開發環境，符合嚴格資安規範"
+        "description": "銀行 CMS：\n• 運用 Angular 18 打造模組化 CMS，並依銀行業務單位需求開發各模組\n• 縮短新頁面開發時間達 40%，提升 15+ 元件的程式碼重用性\n\n認證、API 與程式規範：\n• 建置安全認證系統與 API 架構，使 2+ 位團隊成員能獨立開發與除錯，縮短 50% 上手時間\n• 抽象化資料流函式庫並建立程式碼規範，提升程式碼可讀性與維護效率達 35%\n\n封閉網路部署：\n• 於銀行封閉網路（Air-gapped，與外部網路隔離）部署開發環境，符合嚴格資安規範"
       },
       {
         "company": "Seidor APA",
         "link": "https://www.linkedin.com/company/seidor/mycompany/",
-        "badges": ["Hybris"],
+        "badges": ["SAP Commerce (Hybris)"],
         "title": "前端工程師",
         "logo": "SeidorLogo",
         "start": "2023/05",
         "end": "2024/10",
-        "description": "客戶交付與效能優化：\n• 主導 Falcon Pack（阿聯酋）SAP Commerce 正式站從 CSR 遷移至 SSR，首次頁面載入時間改善 60%，並提升 SEO 表現；於西班牙團隊中直接與客戶合作\n\n架構與擴展性：\n• 重構 Redux 狀態管理架構，降低程式碼複雜度達 30%，讓 4+ 位團隊成員能無縫共享資料\n\n關鍵錯誤修復：\n• 解決影響 15% 結帳交易的關鍵付款 Session 錯誤\n\n開發速度：\n• 建立跨裝置測試流程（Ngrok、Android Studio）與客製化 NPM 模組，提升開發速度達 45%"
+        "description": "CSR 遷移至 SSR（客戶端渲染改為伺服器端渲染）：\n• 主導 Falcon Pack（阿聯酋）SAP Commerce 正式站從 CSR 遷移至 SSR\n• 首次頁面載入時間改善 60%，並提升 SEO 表現\n• 以西班牙團隊成員身分直接與客戶合作\n\n狀態管理、付款錯誤與測試：\n• 重構 Redux 狀態管理架構，降低程式碼複雜度達 30%，讓 4+ 位團隊成員能共享資料\n• 解決影響 15% 結帳交易的關鍵付款 Session 錯誤\n• 建立跨裝置測試流程（Ngrok、Android Studio）並開發客製化 NPM 模組，提升開發速度達 45%"
       },
       {
         "company": "韋爻研策",
@@ -128,7 +128,7 @@
         "logo": "",
         "start": "2022",
         "end": "2023/04",
-        "description": "專案基礎建設：\n• 建構 Next.js 專案架構：資料夾結構、CSS 規範、程式碼格式化規則，以及區分開發／正式環境的 Git 分支策略\n\n資料架構：\n• 設計資料流架構（Props、Context、Redux、Local Storage）與一致的 API 請求模式，涵蓋 20+ 元件"
+        "description": "Next.js 專案基礎建設：\n• 建構資料夾結構、CSS 規範、程式碼格式化規則，以及區分開發／正式環境的 Git 分支策略\n\n資料流架構：\n• 設計資料如何在 Props、Context、Redux 與 Local Storage 之間流動，並統一 API 請求模式，涵蓋 20+ 元件"
       }
     ],
     "skills": [
@@ -190,7 +190,7 @@
           "Notion MCP",
           "Python"
         ],
-        "description": "多 Agent 的 Claude Code 外掛（亦支援 Codex、Pi、Antigravity），將網址、影片與文字轉為互相連結的 Obsidian 筆記：8 個以 Prompt 定義的 Agent 依序執行 Discover → Distill → Render → Integrate 流程，搭配附來源引用的知識庫檢索、Notion MCP 匯入，以及基於 Obsidian Web Clipper 打造、Agent 可呼叫的配套擷取工具 web-clipper。v1.8.1，88 個單元測試。",
+        "description": "將網址、影片與文字轉為 Obsidian 筆記軟體中互相連結的筆記。為多 Agent 的 Claude Code 外掛（亦支援 Codex CLI、Pi、Antigravity）：8 個以 Prompt 定義的 Agent 依序執行 Discover → Distill → Render → Integrate 流程。另提供附來源引用的筆記檢索、Notion MCP 匯入，以及 web-clipper（基於 Obsidian Web Clipper、Agent 可呼叫的配套工具）。v1.8.1，88 個單元測試。",
         "link": {
           "label": "github.com",
           "href": "https://github.com/jasonsie/zkfy"
@@ -207,7 +207,7 @@
           "Antigravity",
           "Python"
         ],
-        "description": "以單一來源供四個 Coding Agent CLI 使用的 Agent 工具組：17 個原創 Skills（另含改編自社群的 Skills）、共用 MCP 設定與防護 Hooks，例如讓每個 Agent 任務擁有獨立 git worktree 的 PreToolUse Hook（1,388 行、107 個測試）；每晚以 Headless 模式執行、僅允許單一指令的 Claude Code 自動產生個人開發日誌。CI 共 654 個測試。"
+        "description": "以單一來源供四個 AI Coding Agent 使用的 Agent 工具組：17 個原創 Agent Skills（另含改編自社群的 Skills）、共用 MCP 設定與防護 Hooks。其中一個 PreToolUse Hook（1,388 行、107 個測試）讓每個 Agent 任務擁有獨立的 Git worktree（工作副本）。每晚以 Headless（無人值守）模式執行、僅允許單一預先核准指令的 Claude Code 自動產生個人開發日誌。CI 共 654 個測試。"
       },
       {
         "title": "lan2cli",
@@ -220,7 +220,7 @@
           "Gemini API",
           "Ollama"
         ],
-        "description": "自然語言轉 Shell 指令的 CLI，Fork 自 Builder.io 的 ai-shell。將其僅支援 OpenAI 的程式重構為單一 Provider 介面，串接 OpenAI、Claude、Gemini 與透過 Ollama 執行的地端開源模型，統一各家串流為同一 SSE 格式，並撰寫 121 個測試。",
+        "description": "將自然語言請求轉為 Shell 指令的 CLI，Fork 自 Builder.io 的 ai-shell。將其僅支援 OpenAI 的程式重構為單一 Provider 介面，串接 OpenAI、Claude、Gemini 與地端開源模型（Ollama）。將各家 Provider 的串流回應統一為同一 SSE（Server-Sent Events）格式。121 個測試。",
         "link": {
           "label": "github.com",
           "href": "https://github.com/jasonsie/lan2cli"
